@@ -1,4 +1,5 @@
 import Content from "../components/Content";
+import ContentWithImage from "../components/ContentWithImage";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
@@ -10,8 +11,8 @@ const Home = () => {
       </div>
       <div className="relative w-full">
         <Hero />
-
         <Content />
+        <ContentWithImage />
       </div>
     </div>
   );

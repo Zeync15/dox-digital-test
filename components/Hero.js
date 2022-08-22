@@ -20,10 +20,10 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col lg:flex-row mt-4 text-white lg:gap-6 mx-3 lg:mx-0">
-            <button className="py-1 px-8 border rounded-full">
+            <button className="py-1 px-8 border-2 rounded-full">
               <Link href="#">BUTTON 1</Link>
             </button>
-            <button className="py-1 px-8 border rounded-full mt-3 lg:mt-0">
+            <button className="py-1 px-8 border-2 rounded-full mt-3 lg:mt-0">
               <Link href="#">BUTTON 2</Link>
             </button>
           </div>
