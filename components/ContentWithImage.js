@@ -6,7 +6,7 @@ const ContentWithImage = () => {
   return (
     <div className="">
       {/* Content 1 */}
-      <div className="mt-10 lg:flex lg:flex-row-reverse lg:flex-1">
+      <div className=" lg:flex lg:flex-row-reverse lg:flex-1">
         <img src="/building.jpg" className="lg:w-7/12" />
 
         <div className="px-4 py-8 lg:px-8 bg-gray-200">
@@ -48,7 +48,7 @@ const ContentWithImage = () => {
       </div>
 
       {/* Content 2 */}
-      <div className="mt-10 lg:flex">
+      <div className="lg:flex">
         <img src="/human.jpg" className="lg:w-7/12" />
 
         <div className="px-4 py-8 lg:px-8 bg-red-600">

@@ -1,7 +1,10 @@
 import Content from "../components/Content";
 import ContentWithImage from "../components/ContentWithImage";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import NewsSlider from "../components/NewsSlider";
+import Testimonial from "../components/Testimonial";
 
 const Home = () => {
   return (
@@ -12,7 +15,10 @@ const Home = () => {
       <div className="relative w-full">
         <Hero />
         <Content />
+        <Testimonial />
         <ContentWithImage />
+        <NewsSlider />
+        <Footer />
       </div>
     </div>
   );
